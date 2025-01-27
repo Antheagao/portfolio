@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem; /* 16px */
+  background-color: #0A0A0A;
+  color: white
+}
+
+.heading {
+  font-family: 'Merriweather', serif;
+}
+
+/* Ensure the container fills the entire viewport */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* The main content grows to push the footer to the bottom */
+.content {
+  flex: 1; /* Allows the main content to grow and take available space */
+}

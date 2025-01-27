@@ -1,0 +1,79 @@
+/* General Home Page Styles */
+.home-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  background-color: #1A1A1A; /* Dark gray */
+  color: #F5F5F5; /* Off-white */
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-heading {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-subtext {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hero-button {
+  background-color: #CECECE; /* Initial Blue Background */
+  color: #0A0A0A; /* Initial Off-white Text */
+  padding: 10px 20px;
+  border: 2px solid transparent; /* Invisible border for consistent button size */
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.hero-button:hover {
+  background-color: #0A0A0A; /* Darker Blue on Hover */
+  color: whitesmoke; /* Golden Text on Hover */
+  border: 2px solid whitesmoke; /* Add a golden border */
+  transform: scale(1.05); /* Slight scaling effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+  .hero-heading {
+    font-size: 2rem;
+  }
+
+  .hero-subtext {
+    font-size: 1.2rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-button {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+

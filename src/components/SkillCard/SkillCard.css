@@ -1,0 +1,32 @@
+.skill-card {
+  background-color: whitesmoke; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 12px;
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.skill-card:hover {
+  transform: scale(1.01); /* Slightly enlarges the card */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.skill-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.skill-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+  color: black;
+}
+
+.skill-item {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}

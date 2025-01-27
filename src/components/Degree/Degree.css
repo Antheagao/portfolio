@@ -1,0 +1,25 @@
+.degree {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: whitesmoke; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.degree:hover {
+  transform: scale(1.01); /* Slightly enlarges the degree card */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow on hover */
+}
+
+.degree-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.degree-details {
+  font-size: 1rem;
+  color: #333;
+}

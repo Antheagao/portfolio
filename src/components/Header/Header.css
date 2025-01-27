@@ -1,0 +1,44 @@
+.header {
+  background-color: #0A0A0A;
+  padding: 1rem;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem; /* 32px */
+  font-weight: bold;
+}
+
+.title:hover {
+  color: #007bff;
+} 
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.125rem; /* 18px */
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid transparent; /* Transparent border by default */
+}
+
+.link:hover {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem; /* 24px */
+  }
+  .nav {
+    font-size: 1rem; /* 16px */
+  }
+}

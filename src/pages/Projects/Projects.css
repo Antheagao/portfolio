@@ -1,0 +1,117 @@
+/* Container for the Projects Page */
+.projects-container {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  color: #333;
+  background-color: #1A1A1A; /* Light background to contrast with the cards */
+}
+
+/* Section Title */
+.projects-section-title {
+  font-size: 2rem; /* Larger size for prominence */
+  font-weight: bold;
+  color: whitesmoke; /* Accent color */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007BFF;
+  display: inline-block;
+}
+
+/* Grid Layout for Project Cards */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between cards */
+}
+
+/* Styling for Individual Project Cards */
+.project-card {
+  background-color: #fff; /* White background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+/* Hover Effect for Cards */
+.project-card:hover {
+  transform: scale(1.05); /* Slightly enlarges the card */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Project Title */
+.project-title {
+  font-size: 1.5rem; /* Slightly larger title */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Languages Section */
+.project-languages {
+  margin-bottom: 10px;
+}
+
+/* Styling for Language Badges */
+.language-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Add specific colors for programming languages */
+.language-badge.python {
+  background-color: #3572A5; /* Python Blue */
+}
+
+.language-badge.cpp {
+  background-color: #00599C; /* C++ Blue */
+}
+
+.language-badge.javascript {
+  background-color: #F7DF1E; /* JavaScript Yellow */
+  color: #000; /* Black text for contrast */
+}
+
+.language-badge.css {
+  background-color: #264DE4; /* CSS Blue */
+}
+
+.language-badge.react {
+  background-color: #61DAFB; /* React Blue */
+  color: #000; /* Black text for contrast */
+}
+
+/* Project Link */
+.project-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007BFF; /* Accent color */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.project-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Description Section */
+.project-description {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+  color: #555; /* Medium gray for descriptions */
+}
+
+.project-description li {
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+}

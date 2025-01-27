@@ -1,0 +1,42 @@
+.experience-card {
+  background-color: whitesmoke; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.experience-card:hover {
+  transform: scale(1.01); /* Slightly enlarges the card */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.experience-position {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.experience-meta {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.experience-dates {
+  color: #333; /* Accent color for dates */
+}
+
+.experience-responsibilities {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+  color: black;
+}
+
+.experience-responsibilities li {
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+}

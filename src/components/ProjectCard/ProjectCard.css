@@ -1,0 +1,45 @@
+.project-card {
+  background-color: #f9f9f9; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Slightly enlarges the card */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.project-languages {
+  margin-bottom: 10px;
+}
+
+.language-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 5px;
+}
+
+/* Add specific colors for languages */
+.language-badge.python {
+  background-color: #3572A5;
+}
+
+.project-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #007bff; /* Link color */
+}
