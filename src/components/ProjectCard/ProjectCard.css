@@ -78,3 +78,7 @@
 .language-badge.springboot {
   background-color: #6db33f; /* Spring Boot's official logo color */
 }
+
+.language-badge.ejs {
+  background-color: #a91e50; /* EJS's official logo color */
+}
