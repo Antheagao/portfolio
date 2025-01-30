@@ -4,7 +4,11 @@ import './ProjectCard.css';
 function ProjectCard({ title, languages, link, description }) {
   // Function to sanitize language names
   const sanitizeLanguage = (lang) => {
-    return lang.toLowerCase().replace('c++', 'cpp').replace(/\s+/g, '-');
+    return lang
+    .toLowerCase()
+    .replace('c++', 'cpp')
+    .replace('node.js', 'node')
+    .replace(/\s+/g, '-');
   };
 
   return (

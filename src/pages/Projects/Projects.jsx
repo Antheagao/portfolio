@@ -9,7 +9,7 @@ function Projects() {
       <div className="projects-grid">
         <ProjectCard
           title="Book Review App"
-          languages={['JavaScript', 'React']}
+          languages={['JavaScript', 'React', 'PostgreSQL', 'Node.js']}
           link="https://github.com/Antheagao/book-notes-app"
           description={[
             'Developed a full-stack web app to manage book review notes, with adding, editing, and deleting books.',
@@ -20,7 +20,7 @@ function Projects() {
         />
         <ProjectCard
           title="E-commerce Web App"
-          languages={['Java', 'React', 'Spring Boot', 'SQL']}
+          languages={['Java', 'React', 'PostgreSQL' , 'Spring Boot',]}
           link="https://github.com/Antheagao/ecommerce-app"
           description={[
             'Developed a full-stack e-commerce platform with user authentication, product management, cart functionality, and cart functionality.',
@@ -31,7 +31,7 @@ function Projects() {
         />
         <ProjectCard
           title="Weather API Application"
-          languages={['JavaScript', 'Node']}
+          languages={['JavaScript', 'Node', 'Express', 'EJS']}
           link="https://github.com/Antheagao/public-api-project"
           description={[
             'Developed a Node.js weather application using Express.js and integrated the WeatherAPI to fetch real-time weather data based on user input or IP geolocation.',
@@ -41,7 +41,7 @@ function Projects() {
         />
         <ProjectCard
           title="Authentication secrets"
-          languages={['JavaScript', 'React']}
+          languages={['JavaScript', 'React', 'Node.js', 'Express', 'postgreSQL']}
           link="https://github.com/Antheagao/Web_development/tree/main/keeper-app-part-4"
           description={[
             'Developed a secure user authentication system in Node.js using Passport.js, supporting both local login with hashed passwords and OAuth 2.0 integration with Google.',
@@ -61,7 +61,7 @@ function Projects() {
         />
         <ProjectCard
           title="Blog Web App"
-          languages={['JavaScript', 'Node', 'Express', 'EJS']}
+          languages={['JavaScript', 'Node', 'Express', 'PostgreSQL', 'EJS']}
           link="https://github.com/Antheagao/Blog-Web-App-Project"
           description={[
             'Designed and implemented a dynamic blog management system using Node.js and Express.js, enabling users to create, edit, view, and delete blog posts.',

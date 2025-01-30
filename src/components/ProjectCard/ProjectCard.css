@@ -43,3 +43,29 @@
   margin-bottom: 10px;
   color: #007bff; /* Link color */
 }
+
+.language-badge.java {
+  background-color: #f89820; /* Java's official logo color */
+}
+
+.language-badge.javascript {
+  background-color: #f0db4f; /* JavaScript's logo color */
+  color: #000; /* Dark text for better contrast */
+}
+
+.language-badge.postgresql {
+  background-color: #336791; /* PostgreSQL's official logo color */
+}
+
+.language-badge.node {
+  background-color: #68a063; /* Node.js's official logo color */
+}
+
+.language-badge.react {
+  background-color: #61dafb; /* React's official logo color */
+  color: #000; /* Dark text for better contrast */
+}
+
+.language-badge.cpp {
+  background-color: #00599c; /* C++'s official logo color */
+}
