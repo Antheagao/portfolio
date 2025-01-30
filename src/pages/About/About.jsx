@@ -46,6 +46,7 @@ function About() {
               'C',
               'Python',
               'JavaScript',
+              'Java',
               'HTML',
               'CSS',
               'SQL (Postgres)',
@@ -53,7 +54,7 @@ function About() {
           />
           <SkillCard
             heading="Frameworks & Libraries"
-            skills={['jQuery', 'Node.js', 'Express.js', 'React.js']}
+            skills={['jQuery', 'Node.js', 'Express.js', 'React.js', 'Spring Boot']}
           />
           <SkillCard
             heading="Web Development"
