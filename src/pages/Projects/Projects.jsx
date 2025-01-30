@@ -20,7 +20,7 @@ function Projects() {
         />
         <ProjectCard
           title="E-commerce Web App"
-          languages={['Java', 'React', 'PostgreSQL' , 'Spring Boot',]}
+          languages={['Java', 'React', 'PostgreSQL' , 'Spring Boot']}
           link="https://github.com/Antheagao/ecommerce-app"
           description={[
             'Developed a full-stack e-commerce platform with user authentication, product management, cart functionality, and cart functionality.',

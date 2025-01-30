@@ -69,3 +69,12 @@
 .language-badge.cpp {
   background-color: #00599c; /* C++'s official logo color */
 }
+
+.language-badge.express {
+  background-color: #000000; /* Express.js's official logo color */
+  color: #ffffff; /* White text for better contrast */
+}
+
+.language-badge.springboot {
+  background-color: #6db33f; /* Spring Boot's official logo color */
+}

@@ -8,6 +8,8 @@ function ProjectCard({ title, languages, link, description }) {
     .toLowerCase()
     .replace('c++', 'cpp')
     .replace('node.js', 'node')
+    .replace('express.js', 'express')
+    .replace('spring boot', 'springboot')
     .replace(/\s+/g, '-');
   };
 
