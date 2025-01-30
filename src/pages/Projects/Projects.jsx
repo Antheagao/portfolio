@@ -10,12 +10,23 @@ function Projects() {
         <ProjectCard
           title="Book Review App"
           languages={['JavaScript', 'React']}
-          link="https://github.com/Antheagao/book-notes-app/tree/main"
+          link="https://github.com/Antheagao/book-notes-app"
           description={[
             'Developed a full-stack web app to manage book review notes, with adding, editing, and deleting books.',
             'Designed a responsive user interface using React and CSS for navigation across pages.',
             'Implemented RESTful APIs using Node.js and Express.js to handle CRUD operations for book data.',
             'Integrated a PostgreSQL database to store and retrieve book information efficiently.'
+          ]}
+        />
+        <ProjectCard
+          title="E-commerce Web App"
+          languages={['Java', 'React', 'Spring Boot', 'SQL']}
+          link="https://github.com/Antheagao/ecommerce-app"
+          description={[
+            'Developed a full-stack e-commerce platform with user authentication, product management, cart functionality, and cart functionality.',
+            'Built a secure REST API using Spring Boot, implementing JWT and Bcrypt for authentication and authorization.',
+            'Integrated PostgreSQL for product and user data management.',
+            'Created a React.js frontend with features for product listing, cart management, and a checkout system.'
           ]}
         />
         <ProjectCard
