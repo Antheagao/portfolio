@@ -8,11 +8,11 @@
 /* Hero Section */
 .hero-section {
   text-align: center;
-  background-color: #1A1A1A; /* Dark gray */
+  background-color: #0A0A0A; /* Dark gray */
   color: #F5F5F5; /* Off-white */
   padding: 50px 20px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  
 }
 
 .hero-heading {

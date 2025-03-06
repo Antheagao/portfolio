@@ -6,9 +6,9 @@ function Home() {
   return (
     <div className="home-container">
       <section className="hero-section">
-        <h1 className="hero-heading">Hi, I'm Anthony Mendez</h1>
+        <h1 className="hero-heading">Anthony Mendez</h1>
         <p className="hero-subtext">
-          Software Engineer | Web Developer
+          Software Engineer
         </p>
         <div className="hero-buttons">
           <Link to="/about" className="hero-button">
